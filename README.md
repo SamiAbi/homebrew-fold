@@ -1,24 +1,23 @@
-# Homebrew tap for Tada 🎉
+# Homebrew tap for Fold 🎉
 
-Official Homebrew tap for [Tada](https://github.com/SamiAbi/tada) — the terminal-first agent cockpit for macOS.
 
 ## Install
 
 ```sh
-brew install --cask samiabi/tada/tada
+brew install --cask samiabi/fold/fold
 ```
 
-Then launch **Tada** from Applications or Spotlight.
+Then launch **Fold** from Applications or Spotlight.
 
 ## Upgrade
 
 ```sh
-brew upgrade --cask tada
+brew upgrade --cask fold
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall --cask tada        # remove the app
-brew uninstall --zap --cask tada  # also remove settings & caches
+brew uninstall --cask fold        # remove the app
+brew uninstall --zap --cask fold  # also remove settings & caches
 ```

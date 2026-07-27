@@ -1,10 +1,8 @@
 # Homebrew tap for Fold 🎉
 
-> **Note — Fold is private.** The app's repo
-> ([SamiAbi/fold](https://github.com/SamiAbi/fold)) is private, and Homebrew
-> fetches release assets unauthenticated, so the `brew install` below will fail
-> with a 404 unless you have access to it. This tap tracks every release, so it
-> will work as soon as access is granted.
+Fold's source is closed; the signed, notarized builds are published publicly to
+[SamiAbi/fold-dist](https://github.com/SamiAbi/fold-dist), which is what this
+cask installs from. Apple silicon, macOS 13+.
 
 ## Install
 

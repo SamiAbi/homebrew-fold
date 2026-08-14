@@ -1,6 +1,6 @@
 cask "fold" do
-  version "0.23.0"
-  sha256 "68e7baeb1e20ce4a36c7eb93b4e64b863fdfdd4c785c09b92a2367538967bae8"
+  version "0.24.0"
+  sha256 "be017b81bfe6bdf42f73b6ab81a40075f0c22d30ccb7585ada83ecf0526e671a"
 
   url "https://github.com/SamiAbi/fold-dist/releases/download/v#{version}/Fold.dmg"
   name "Fold"

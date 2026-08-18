@@ -62,8 +62,8 @@ class GitHubPrivateReleaseDownloadStrategy < CurlDownloadStrategy
 end
 
 cask "fold" do
-  version "0.30.1"
-  sha256 "071cfc574990f79c77bc805c3ecaff03ca70be1413d6f32e1f246c1d206ecbcb"
+  version "0.31.0"
+  sha256 "91913eeab174f34d4a2de71489bbd98e57fb09c5d2c0e7bb4785dfb53b0d4674"
 
   url "https://github.com/SamiAbi/fold-dist/releases/download/v#{version}/Fold.dmg",
       using: GitHubPrivateReleaseDownloadStrategy

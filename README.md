@@ -2,7 +2,7 @@
 
 Fold's source is closed; the signed, notarized builds are published publicly to
 [SamiAbi/fold-dist](https://github.com/SamiAbi/fold-dist), which is what this
-cask installs from. Apple silicon, macOS 13+.
+cask installs from. Apple silicon, macOS 14+.
 
 ## Install
 

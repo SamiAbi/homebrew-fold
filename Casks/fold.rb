@@ -7,5 +7,7 @@ cask "fold" do
   desc "Terminal-first agent cockpit for macOS"
   homepage "https://github.com/SamiAbi/fold-dist"
 
+  depends_on macos: ">= :sonoma"
+
   app "Fold.app"
 end

@@ -1,6 +1,6 @@
 cask "fold" do
-  version "2.4.0"
-  sha256 "890eb37a6c757d3b9a2d52aca707758ca8a3bacba9848d1a58c5a854d169335e"
+  version "2.5.0"
+  sha256 "45d5d163620e172c5a1ff4b705ea8e3563214132995233d4d768f4b6fd59bc96"
 
   url "https://github.com/SamiAbi/fold-dist/releases/download/v#{version}/Fold.dmg"
   name "Fold"
@@ -10,4 +10,5 @@ cask "fold" do
   depends_on macos: :sonoma
 
   app "Fold.app"
+  binary "#{appdir}/Fold.app/Contents/Resources/bin/fold"
 end
